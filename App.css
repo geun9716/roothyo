@@ -1,0 +1,81 @@
+@font-face{
+    font-family:"NotoSans";
+    src:url("Assets/fonts/NotoSansKR-Black.otf");
+}
+@font-face{
+    font-family:"NotoSans-Thin";
+    src:url("Assets/fonts/NotoSansKR-Thin.otf");
+}
+
+
+body {
+    font-family:"NotoSans-Thin";
+    background-color: white;
+    color : black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+Header {
+    display:flex;
+}
+
+Header h1 {
+    flex:1;
+}
+
+Nav > ul{
+    list-style:none;
+    background-color:yellow;
+    display:flex
+}
+
+Main {
+
+}
+.content {
+    display:flex;
+}
+
+.content .profile-content {
+    flex-direction:column;
+    align-items:center;
+    margin:10px;
+}
+
+#profile {
+    width : 15vw;
+    border-radius : 50%;
+}
+
+.content .about{
+    
+}
+
+.about i {
+    font-size:60px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.about > h2 {
+    border-bottom:solid;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+Footer {
+    text-align:center;
+}
+
+Footer i {
+    font-size : 60px;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+
